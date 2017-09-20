@@ -6,6 +6,10 @@ To access site contents from utside the container you should map /var/www
 
 Includes composer for easy download of php libraries
 
+## Base on
+
+https://github.com/nimmis/docker-apache-php7
+
 ### Examples
 
 - plain, accessable on port 8080 `docker run -d -p 8080:80 dszymczuk/apache-php7`
