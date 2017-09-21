@@ -13,3 +13,4 @@ phpenmod mcrypt && \
 rm -rf /var/lib/apt/lists/* && \
 cd /tmp && curl -sS https://getcomposer.org/installer | php && mv composer.phar /usr/local/bin/composer
 
+RUN echo "memory_limit=512M" > /etc/php/7.0/apache2/conf.d/memory-limit.ini
