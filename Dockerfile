@@ -1,6 +1,6 @@
 FROM nimmis/apache
 
-MAINTAINER nimmis <kjell.havneskold@gmail.com>
+MAINTAINER Damian Szymczuk <damian@dszymczuk.pl>
 
 # disable interactive functions
 ENV DEBIAN_FRONTEND noninteractive
